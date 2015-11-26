@@ -22,7 +22,7 @@
     "require": {
         "firebase/php-jwt": "~2.0",
         "composer/installers": "*",
-        "phpunit/phpunit": "~4.6"
+        "phpunit/phpunit": "3.*"
     },
     "extra": {
         "installer-name": "JwtAuth"

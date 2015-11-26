@@ -1,7 +1,5 @@
 <?php
 App::uses('BaseAuthenticate', 'Controller/Component/Auth');
-$path = CakePlugin::path('JwtAuth');
-require_once($path . DS . 'vendor' . DS . 'firebase' . DS . 'php-jwt' . DS . 'Firebase' . DS . 'PHP-JWT' . DS . 'Authentication' . DS . 'JWT.php');
 
 /**
  * An authentication adapter for AuthComponent.  Provides the ability to authenticate using a Json Web Token
@@ -27,6 +25,7 @@ require_once($path . DS . 'vendor' . DS . 'firebase' . DS . 'php-jwt' . DS . 'Fi
  * @license MIT
  * @link https://github.com/ceeram/Authenticate
  */
+
 class JwtTokenAuthenticate extends BaseAuthenticate
 {
 
